@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 0.9rem;
+      background-color: var(--brand-color);
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 90%;
+      text-align: center;
+     
+    }
+
+    .title  {
+      font-size: 1.5rem;
+      margin: 20px 0;
+    }
+  .subtitle {
+      font-size: 1rem;
+      text-align: center;
+      margin: 20px 0;
+    }
+.logo img {
+  display: none;
+}
+
+
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .logo img {
+      margin: 20px auto;
+      height: 80px;
+      width: auto;
+    }
+  
+    .button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    iframe {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .hours, .menu-title, .menu-description {
+      font-size: 90%;
+    }
+  
+    .posts {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
